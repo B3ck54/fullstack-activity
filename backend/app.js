@@ -4,7 +4,7 @@ const mongoose = require ('mongoose');
 
 const Product = require ('./models/Product')
 
-mongoose.connect('mongodb+srv://root:MBq5AUealDdUthCW@cluster0.l3xmz.mongodb.net/fullstack_activity?retryWrites=true&w=majority',
+mongoose.connect('mongodb+srv://root:<password>@cluster0.l3xmz.mongodb.net/<dbname>?retryWrites=true&w=majority',
 { useNewUrlParser: true,
     useUnifiedTopology: true })
   .then(() => console.log('Connexion à MongoDB réussie !'))
